@@ -7,6 +7,7 @@ const Header = () => {
   const [seconds,setSeconds] = useState(0);
   const [minutes,setMinutes] = useState(0);
   const [hours, setHours] = useState(0);
+  const [openModal, setModal] = useState(false);
 
   let timer;
   useEffect(() => {
@@ -37,11 +38,36 @@ const Header = () => {
         </div>
 
         <div className="timer">
-          <h4>CREDITS</h4>
+          <button onClick={() => {setModal(true)}}><h4>CREDITS</h4></button>
           <h4>SERVER TIME: <span>{hours}:{minutes}:{seconds}</span></h4>
           <h4>LOCAL TIME : <span>{getHours}:{getMinutes}</span></h4>    
         </div>
       </nav>
+      {openModal &&
+            <div className="credits">
+              <div className="judul">
+                <h1>CREDITS</h1>
+                <button onClick={() => {setModal(false)}}>x</button>
+              </div>
+              <p>EVERYTHING INVOLVED IN THIS PROJECT</p>
+              <div className="data-credits">
+                <table>
+                  <tr>
+                    <td>DEVELOPED BY</td>
+                    <td>DESIGNED BY</td>
+                    <td>AUDIO EFFECT</td>
+                    <td>MUSIC</td>
+                  </tr>
+                  <tr>
+                    <td>Nabil Syahnaufal (Nikolai Mutzki)</td>
+                    <td>Alex DIMITROV @XAVORTM</td>
+                    <td>CLICK, HOVER, TYPING AND ALL OTHER</td>
+                    <td></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+      }
     </header>
   )
 }
