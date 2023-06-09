@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Iceland&display=swap');
+
+.bg-color {
+    background: linear-gradient(242.06deg, rgba(232, 74, 74, 0.33) 0%, rgba(232, 74, 74, 0) 34.83%);
+    height: 500px;
+    width: 583px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.header{
+    display: none;
+}
+
+.container-sidebar
+{
+    display: none;
+}
+
+.right-sidebar
+{
+    display: none;
+}
+
+.baner
+{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.judul h1{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 743;
+    font-size: 538px;
+    text-transform: uppercase;
+    color: #E84A4A;
+
+}
+
+.paraf {
+    font-family: 'Iceland';
+    margin-left: 84px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.paraf h4{
+    font-size: 26px;
+    margin-bottom: 46px;
+}
+
+.paraf p {
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.parafcuy {
+    margin-top: 30px;
+}
+
+.paraf a button {
+    background-color: black;
+    border: 1px solid #E84A4A;
+    color: #E84A4A;
+    width: 266px;
+    height: 55px;
+    font-size: 22px;
+    font-family: 'Big Shoulders Display';
+    margin-top: 68px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #E84A4A;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.paraf button a {
+    text-decoration: none;
+    color: #E84A4A;
+}
+
+.paraf a button:hover {
+    box-shadow: inset 400px 0 0 0 #E84A4A;
+    color: black;
+}

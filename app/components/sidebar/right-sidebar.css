@@ -1,0 +1,167 @@
+.right-sidebar
+{
+    position: absolute;
+    right: 79;
+    left: 1050px;
+    top: 92px;
+}
+
+.achievment
+{
+    border-left: 2px solid #E84A4A;
+    height: 323px;
+}
+
+.achievment .active-quest
+{
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-right: 90px;
+    padding-bottom: 1px;
+    background: #A73535;
+    width: 196px;
+    box-sizing: border-box;
+    
+}
+
+.achievment .active-quest h1
+{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 743;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.achievment .skill-up
+{
+    background: #250C0E;
+    width: 196px;
+    padding: 8px 43px 8px 10px;
+    box-sizing: border-box;
+}
+
+.achievment .skill-up h3{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #7A7A7A;
+}
+
+.achievment .child
+{
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+.achievment .child h4{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.achievment .child h1
+{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 743;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    margin-top: 4px;
+    margin-bottom: 23px;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+
+    /* Primary */
+
+    color: #E84A4A;
+}
+
+.achievment .child p
+{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    margin-top: 4px;
+    margin-bottom: 23px;
+    color: #7A7A7A;
+}
+
+.setting
+{
+    margin-top: 370px;
+    margin-left: 25px;
+}
+
+.setting .sound-effect
+{
+    display: flex;
+}
+
+.setting .sound-effect label h1
+{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 743;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    margin-right: 45px;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+
+    /* Primary */
+
+    color: #E84A4A;
+}
+
+.setting .music
+{
+    display: flex;
+}
+
+.setting .music input
+{
+    width: 33px;
+    height: 33px;
+    border: 1px solid #E84A4A;
+}
+
+.setting .music label h1
+{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 743;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    margin-right: 99px;
+
+    /* Primary */
+
+    color: #E84A4A;
+}

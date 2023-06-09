@@ -1,0 +1,158 @@
+.container-sidebar
+{
+    margin-top: 32px;
+    margin-left: 72px;
+}
+
+.container-sidebar .side-bar .profile
+{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.container-sidebar .side-bar .profile .data
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+
+.container-sidebar .side-bar .profile .foto-container
+{
+    width: 164px;
+    padding: 14px 15px 13px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.container-sidebar .profile label
+{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    /* identical to box height */
+
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    display: block;
+    color: white;
+}
+
+.container-sidebar .profile h1, .social
+{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 743;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    margin-top: 4px;
+    color: #E84A4A;
+}
+
+.container-sidebar .form label
+{
+    margin-top: 22px;
+}
+
+.container-sidebar .profile .hire
+{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 743;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    padding: 1px 87px 1px 4px;
+    opacity: 0.7;
+    margin-top: 4px;
+    cursor: pointer;
+    border: 1px solid #E84A4A;
+    background-color: #E84A4A;
+}
+
+.container-sidebar .profile .hire:hover
+{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 743;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    margin-top: 4px;
+    color: black;
+}
+
+.container-sidebar .profile .social
+{
+    width: 194px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #E84A4A;
+    box-shadow: inset 0 0 0 0 #E84A4A;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.container-sidebar .profile .social:hover
+{
+    width: 194px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #E84A4A;
+    box-shadow: inset 400px 0 0 0 #E84A4A;
+    color: black;
+}
+
+.container-sidebar .profile .social .bluetooth
+{
+    margin-top: 4px;
+    margin-left: 30px;
+}
+
+.moto
+{
+    margin-top: 220px;
+}
+
+.moto h1{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+
+    /* Primary */
+
+    color: #E84A4A;
+}
+
+.moto p{
+    margin-top: 6px;
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+
+    color: #B2B7BA;
+}
