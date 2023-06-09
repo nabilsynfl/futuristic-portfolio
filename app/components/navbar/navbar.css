@@ -1,0 +1,44 @@
+.navbar
+{
+    position: fixed;
+    bottom: 50px;
+    left: 553px;
+}
+
+.navbar .container
+{
+    height: 59px;
+    border-left: 2px solid #E84A4A;
+}
+
+.container-navbar .container-header h1
+{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 743;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    background-color: #A23334;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    width: 151px;
+    color: #FFFFFF;
+    padding: 1px 66px 1px 10px;
+    box-sizing: border-box;
+}
+
+.container-navbar .container-paraf p
+{
+    background-color: #050508;
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 7px;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    width: 102px;
+    color: #FFFFFF;
+    padding: 8px 39px 6px 10px;
+}

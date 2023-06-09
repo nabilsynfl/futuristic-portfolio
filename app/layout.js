@@ -1,10 +1,9 @@
 import './globals.css'
 import Head from 'next/head';
 import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
-import ScrollUp from './components/scrollup/ScrollUp';
 import Sidebar from './components/sidebar/Sidebar';
 import RightSidebar from './components/sidebar/rightSidebar';
+import Navbar from './components/navbar/Navbar';
 
 export const metadata = {
   title: 'Nabil',
@@ -26,6 +25,7 @@ export default function RootLayout({ children }) {
           <Header />
           <Sidebar />
           <RightSidebar />
+          <Navbar />
           {children}
         </body>
       </html>
