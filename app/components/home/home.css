@@ -92,3 +92,8 @@
     box-shadow: inset 400px 0 0 0 #E84A4A;
     color: black;
 }
+
+.navbar
+{
+    display: none;
+}
