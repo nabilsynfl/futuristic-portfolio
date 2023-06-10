@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import {useState, useEffect} from 'react';
 import './header.css';
@@ -54,15 +54,15 @@ const Header = () => {
                 <table>
                   <tr>
                     <td>DEVELOPED BY</td>
-                    <td>DESIGNED BY</td>
-                    <td>AUDIO EFFECT</td>
-                    <td>MUSIC</td>
+                    <td>Nabil Syahnaufal (Nikolai Mutzki)</td>
                   </tr>
                   <tr>
-                    <td>Nabil Syahnaufal (Nikolai Mutzki)</td>
+                    <td>DESIGNED BY</td>
                     <td>Alex DIMITROV @XAVORTM</td>
+                  </tr>
+                  <tr>       
+                    <td>AUDIO EFFECT</td>  
                     <td>CLICK, HOVER, TYPING AND ALL OTHER</td>
-                    <td></td>
                   </tr>
                 </table>
               </div>

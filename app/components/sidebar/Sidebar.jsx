@@ -14,6 +14,7 @@ const Sidebar = () => {
                         alt="profile"
                         width={164}
                         height={148}
+                        priority
                         />
                     </div>
                     <div className="data">
