@@ -73,9 +73,29 @@ header nav {
 {
     position: absolute;
     top: 200px;
-    left: 100;
-    right: 0;
+    left: 450px;
     border: 2px solid #E84A4A;
+    padding: 20px;
+}
+
+.credits p
+{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: #B2B7BA;
+}
+
+.credits .data-credits
+{
+    margin-top: 18px;
+    border-top: 2px solid #E84A4A;
 }
 
 .credits .judul 
@@ -96,4 +116,26 @@ header nav {
     color: #FFFFFF;
     margin-bottom: 5px;
     margin-right: 345px;
+}
+
+.credits .data-credits table 
+{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.credits .data-credits table tr td
+{
+    padding-top: 12px;
+    padding-bottom: 61px;
+    padding-right: 33px;
 }
