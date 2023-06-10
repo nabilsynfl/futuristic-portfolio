@@ -56,6 +56,11 @@ header nav {
     outline: inherit;
 }
 
+.timer button h4:hover
+{
+    color: white;
+}
+
 .header nav .left-side .icon-header img
 {
     border: 1px solid rgba(255, 255, 255, 0.29);

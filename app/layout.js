@@ -1,5 +1,4 @@
 import './globals.css'
-import Head from 'next/head';
 import Header from './components/header/Header';
 import Sidebar from './components/sidebar/Sidebar';
 import RightSidebar from './components/sidebar/rightSidebar';

@@ -27,16 +27,6 @@ const RightSidebar = () => {
                     <img src="" alt="" />
                 </div>
             </div>
-            <div className="setting">
-                    <div className='sound-effect'>
-                        <label><h1>SOUND EFFECT</h1></label>
-                        <input type="checkbox" />
-                    </div>
-                    <div className="music">
-                        <label><h1>MUSIC</h1></label>
-                        <input type="checkbox" />
-                    </div>
-            </div>
     </div>
   )
 }

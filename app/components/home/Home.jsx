@@ -13,7 +13,7 @@ const Home = () => {
           <h4>WELCOME TO NIKOLAI WEBSITE</h4>
           <p>I HAVE CREATED THIS WEBSITE TO FEEL LIKE A SCI-FI INTERFACE. ALL <br></br> TEXT INSIDE TRIES TO REFLECT THIS.</p>
           <p className='parafcuy'>YOU WILL FIND 'ACHIEVEMENTS OR 'QUEST' THAT SHOW THE PROGRESS IN MY <br></br> PROFESSIONAL LIFE AND ARE REALTED TO WHAT I AM WORKING ON.</p>
-          <a href='../page/home-screen'><button>ENTER THE SYSTEM</button></a>
+          <a href='../page/beginning'><button>ENTER THE SYSTEM</button></a>
         </div>
       </div>
     </>

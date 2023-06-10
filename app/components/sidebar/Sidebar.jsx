@@ -1,8 +1,12 @@
-import React from 'react';
+"use client";
+
+import {useState, useEffect} from 'react';
 import Image from 'next/image';
 import './sidebar.css';
 
 const Sidebar = () => {
+    const [openConnection, setConnection ] = useState(false);
+
   return (
     <>
         <div className="container-sidebar">
@@ -14,7 +18,7 @@ const Sidebar = () => {
                         alt="profile"
                         width={164}
                         height={148}
-                        priority
+                        priority={true}
                         />
                     </div>
                     <div className="data">
@@ -35,12 +39,38 @@ const Sidebar = () => {
                         </button>
 
                         <label>SOCIAL</label>
-                        <button className='social'>
+                        <button className='social' onClick={() => {setConnection(true)}}>
                             <span>OPEN CONNECTION</span>
                             <span className='bluetooth'>
                                 <img src="/home-screen-icon/Frame.svg" alt="" />
                             </span>
                         </button>
+
+                        {openConnection &&
+                                <div className="credits">
+                                <div className="judul">
+                                    <h1>CREDITS</h1>
+                                    <button onClick={() => {setConnection(false)}}>x</button>
+                                </div>
+                                <p>EVERYTHING INVOLVED IN THIS PROJECT</p>
+                                <div className="data-credits">
+                                    <table>
+                                    <tr>
+                                        <td>DEVELOPED BY</td>
+                                        <td>Nabil Syahnaufal (Nikolai Mutzki)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DESIGNED BY</td>
+                                        <td>Alex DIMITROV @XAVORTM</td>
+                                    </tr>
+                                    <tr>       
+                                        <td>AUDIO EFFECT</td>  
+                                        <td>CLICK, HOVER, TYPING AND ALL OTHER</td>
+                                    </tr>
+                                    </table>
+                                </div>
+                                </div>
+                        }
                     </div>
                 </div>
 
