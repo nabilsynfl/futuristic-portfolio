@@ -1,13 +1,15 @@
 import React from 'react'
+import './beginning.css'
+import Image from 'next/image'
 
-const Project = () => {
+const HomePage = () => {
   return (
     <div className='bg-color'>
       <div className="container-content">
-        
+         
       </div>
     </div>
   )
 }
 
-export default Project
+export default HomePage

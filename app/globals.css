@@ -19,3 +19,14 @@ body {
   z-index: -1;
 }
 
+.container-content
+{
+
+    width: 760px;
+    height: 734px;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    background: linear-gradient(90deg, rgba(232, 74, 74, 0) 0%, rgba(232, 74, 74, 0.17) 51.94%, rgba(232, 74, 74, 0) 100%);
+}
+
+
+

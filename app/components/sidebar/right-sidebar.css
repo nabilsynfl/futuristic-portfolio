@@ -1,8 +1,7 @@
 .right-sidebar
 {
     position: absolute;
-    right: 79;
-    left: 1050px;
+    right: 44px;
     top: 92px;
 }
 
@@ -167,57 +166,3 @@
 }
 
 /* RESPONSIVE */
-@media only screen and (min-width: 1440px) {
-    .right-sidebar
-    {
-        position: absolute;
-        right: 79;
-        left: 1200px;
-        top: 92px;
-    }
-
-    .moto
-    {
-        margin-top: 250px;
-    }
-}
-
-@media only screen and (min-width: 1920px) {
-    .right-sidebar
-    {
-        position: absolute;
-        right: 79;
-        left: 1690px;
-        top: 92px;
-    }
-
-    .moto
-    {
-        margin-top: 440px;
-    }
-
-    .setting
-    {
-        margin-top: 470px;
-    }
-}
-
-@media only screen and (max-height: 800px) {
-    .right-sidebar
-    {
-        position: absolute;
-        right: 79;
-        left: 1030px;
-        top: 92px;
-    }
-
-    .moto
-    {
-        margin-top: 160px;
-    }
-
-    .setting
-    {
-        margin-top: 270px;
-    }
-}

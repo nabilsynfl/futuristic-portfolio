@@ -1,8 +1,7 @@
 .navbar
 {
-    position: absolute;
-    bottom: 50px;
-    left: 26%;
+    margin-top: -96px;
+    margin-left: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
