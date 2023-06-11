@@ -21,11 +21,41 @@ body {
 
 .container-content
 {
-
-    width: 760px;
+    position: relative;
+    margin-top: -772px;
+    margin-left: 22%;
+    width: 750px;
     height: 734px;
-    border: 1px solid rgba(255, 255, 255, 0.13);
     background: linear-gradient(90deg, rgba(232, 74, 74, 0) 0%, rgba(232, 74, 74, 0.17) 51.94%, rgba(232, 74, 74, 0) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    z-index: -1;
+}
+
+.top, .bottom {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  pointer-events: none;
+}
+
+.top {
+  top: 0;
+  border-top: 2px solid #E84A4A;
+}
+
+.bottom {
+  bottom: 0;
+  border-bottom: 2px solid #E84A4A;
+}
+
+.left {
+  left: 0;
+  border-left: 2px solid #E84A4A;
+}
+
+.right {
+  right: 0;
+  border-right: 2px solid #E84A4A;
 }
 
 

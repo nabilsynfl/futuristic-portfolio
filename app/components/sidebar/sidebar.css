@@ -20,6 +20,7 @@
 
 .container-sidebar .side-bar .profile .foto-container
 {
+    position: relative;
     width: 164px;
     padding: 14px 15px 13px 15px;
     border: 1px solid rgba(255, 255, 255, 0.13);
