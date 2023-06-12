@@ -16,15 +16,17 @@ body {
 
 .animation
 {
-  transition: 1s;
-  transform: perspective(1000px) rotateY(-60deg);
+  transition: 0.5s;
+  transform: perspective(1200px) rotateY(-60deg);
+  pointer-events: none;
 }
 
 .credits
 {
+    background-color: black;
     position: absolute;
     top: 200px;
-    left: 450px;
+    left: 50px;
     border: 2px solid #E84A4A;
     padding: 20px;
     z-index: 10;

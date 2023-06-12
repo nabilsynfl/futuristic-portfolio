@@ -4,7 +4,7 @@ import {useState, useEffect} from 'react';
 import Image from 'next/image';
 import './sidebar.css';
 
-const Sidebar = ({ setConnection }) => {
+const Sidebar = ({ setConnection, setOpenForHire }) => {
 
   return (
     <>
@@ -37,7 +37,7 @@ const Sidebar = ({ setConnection }) => {
                     </div>
                     <div className="form">
                         <label>AVAILABILITY</label>
-                        <button className="hire">
+                        <button className="hire" onClick={() => {setOpenForHire(true)}}>
                             <span>OPEN FOR HIRE</span>
                         </button>
 

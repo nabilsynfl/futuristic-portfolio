@@ -15,6 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   const [openModal, setModal] = useState(false);
   const [openConnection, setConnection ] = useState(false);
+  const [openForHire, setOpenForHire] = useState(false);
 
   return (
     <>
@@ -45,9 +46,22 @@ export default function RootLayout({ children }) {
               </div>
             </div>                     
           }
-          <div className={`normal ${openModal ? 'animation' : 'normal'} ${openConnection ? 'animation' : 'normal'}`}>
+
+          {openForHire &&
+            <div className="credits">
+              <div className="judul">
+                  <h1>CREDITS</h1>
+                  <button onClick={() => {setOpenForHire(false)}}>x</button>
+              </div>
+              <p>EVERYTHING INVOLVED IN THIS PROJECT</p>
+              <div className="data-credits">
+                  
+              </div>
+            </div>                     
+          }
+          <div className={`normal ${openModal ? 'animation' : 'normal'} ${openConnection ? 'animation' : 'normal'} ${openForHire ? 'animation' : 'normal'} `}>
             <Header setModal={setModal}/>
-            <Sidebar setConnection={setConnection}/>
+            <Sidebar setConnection={setConnection} setOpenForHire={setOpenForHire}/>
             <RightSidebar />
             <Navbar />
             {children}
