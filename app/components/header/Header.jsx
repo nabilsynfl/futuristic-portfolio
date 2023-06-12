@@ -3,11 +3,10 @@
 import {useState, useEffect} from 'react';
 import './header.css';
 
-const Header = () => {
+const Header = ({ setModal }) => {
   const [seconds,setSeconds] = useState(0);
   const [minutes,setMinutes] = useState(0);
   const [hours, setHours] = useState(0);
-  const [openModal, setModal] = useState(false);
 
   let timer;
   useEffect(() => {
@@ -43,31 +42,6 @@ const Header = () => {
           <h4>LOCAL TIME : <span>{getHours}:{getMinutes}</span></h4>    
         </div>
       </nav>
-      {openModal &&
-            <div className="credits">
-              <div className="judul">
-                <h1>CREDITS</h1>
-                <button onClick={() => {setModal(false)}}>x</button>
-              </div>
-              <p>EVERYTHING INVOLVED IN THIS PROJECT</p>
-              <div className="data-credits">
-                <table>
-                  <tr>
-                    <td>DEVELOPED BY</td>
-                    <td>Nabil Syahnaufal (Nikolai Mutzki)</td>
-                  </tr>
-                  <tr>
-                    <td>DESIGNED BY</td>
-                    <td>Alex DIMITROV @XAVORTM</td>
-                  </tr>
-                  <tr>       
-                    <td>AUDIO EFFECT</td>  
-                    <td>CLICK, HOVER, TYPING AND ALL OTHER</td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-      }
     </header>
   )
 }
