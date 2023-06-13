@@ -27,7 +27,7 @@ const Sidebar = ({ setConnection, setOpenForHire }) => {
                     <div className="data">
                         <div className="name">
                             <label>NAME</label>
-                            <h1>NIKOLAI MUTZSKI</h1>
+                            <h1>NABIL SYAHNAUFAL</h1>
                         </div>
 
                         <div className="occupation">

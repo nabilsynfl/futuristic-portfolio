@@ -29,20 +29,22 @@ const Header = ({ setModal }) => {
   let getMinutes = showDate.getMinutes();
 
   return (
-    <header className="header">
-      <nav>
-        <div className='left-side'>
-          <h4><span>48</span> LEVEL</h4>
-          <h4><span>1,425</span> VISITOR</h4>
-        </div>
+    <>
+      <header className="header">
+        <nav>
+          <div className='left-side'>
+            <h4><span>48</span> LEVEL</h4>
+            <h4><span>1,425</span> VISITOR</h4>
+          </div>
 
-        <div className="timer">
-          <button onClick={() => {setModal(true)}}><h4>CREDITS</h4></button>
-          <h4>SERVER TIME: <span>{hours}:{minutes}:{seconds}</span></h4>
-          <h4>LOCAL TIME : <span>{getHours}:{getMinutes}</span></h4>    
-        </div>
-      </nav>
-    </header>
+          <div className="timer">
+            <button onClick={() => {setModal(true)}}><h4>CREDITS</h4></button>
+            <h4>SERVER TIME: <span>{hours}:{minutes}:{seconds}</span></h4>
+            <h4>LOCAL TIME : <span>{getHours}:{getMinutes}</span></h4>    
+          </div>
+        </nav>
+      </header>
+    </>
   )
 }
 

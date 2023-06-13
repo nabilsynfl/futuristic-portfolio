@@ -8,7 +8,7 @@ import RightSidebar from './components/sidebar/rightSidebar';
 import Navbar from './components/navbar/Navbar';
 
 export const metadata = {
-  title: 'Nikolai',
+  title: 'Nabil Syahnaufal',
   description: 'Portfolio Nabil Syahnaufal',
 }
 
