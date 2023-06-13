@@ -29,7 +29,14 @@ const Animation = ({children}) => {
 
   return (
     <div>
-         {openModal &&
+          <div className={`normal ${openModal ? 'animation' : 'normal'} ${openConnection ? 'animation' : 'normal'} ${openForHire ? 'animation' : 'normal'} `}>
+            <Header setModal={setModal}/>
+            <Sidebar setConnection={setConnection} setOpenForHire={setOpenForHire}/>
+            <RightSidebar />
+            <Navbar />
+            {children}
+          </div>
+          {openModal &&
               <div className="credits">
                 <div className="judul">
                   <h1>CREDITS</h1>
@@ -66,7 +73,7 @@ const Animation = ({children}) => {
               </div>
               <div className='send'>
                 <button className='enter'>SEND MESSAGE [ENTER]</button>
-                <button className='esc'>DISCARD [ESC]</button>
+                <button className='esc' onClick={() => {setConnection(false)}}>DISCARD [ESC]</button>
               </div>
             </div>                     
           }
@@ -85,17 +92,10 @@ const Animation = ({children}) => {
                 </div>
                 <div className='send'>
                     <button className='enter'>SEND MESSAGE [ENTER]</button>
-                    <button className='esc'>DISCARD [ESC]</button>
+                    <button className='esc'  onClick={() => {setOpenForHire(false)}}>DISCARD [ESC]</button>
                 </div>
                 </div>                         
            }
-          <div className={`normal ${openModal ? 'animation' : 'normal'} ${openConnection ? 'animation' : 'normal'} ${openForHire ? 'animation' : 'normal'} `}>
-            <Header setModal={setModal}/>
-            <Sidebar setConnection={setConnection} setOpenForHire={setOpenForHire}/>
-            <RightSidebar />
-            <Navbar />
-            {children}
-          </div>
     </div>
   )
 }
