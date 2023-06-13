@@ -41,11 +41,6 @@ export default function RootLayout({ children }) {
               <div className="credits">
                 <div className="judul">
                   <h1>CREDITS</h1>
-                  <button onClick={() => {setModal(false)}}>
-                    <span>
-                      <img src="/home-screen-icon/close.svg" alt="" />
-                    </span>
-                  </button>
                 </div>
                 <p>EVERYTHING INVOLVED IN THIS PROJECT</p>
                 <div className="data-credits">

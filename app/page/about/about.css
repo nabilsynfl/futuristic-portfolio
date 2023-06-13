@@ -1,0 +1,80 @@
+.container-content .about-content
+{
+    z-index: 12;
+    font-family: 'Iceland';
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 30px 30px 30px 30px;
+    box-sizing: border-box;
+}
+
+.container-content .about-content .about-paraf .about-text
+{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 30px;
+    justify-content: center;
+}
+
+.container-content .about-content .title h1
+{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+}
+
+.container-content .about-content .about-paraf h1
+{
+    margin-top: 5px;
+    width: 180px;
+    height: 77px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #7A7A7A;
+}
+
+.container-content .about-content .about-paraf p
+{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 360px;
+    height: 185px;
+}
+
+.container-content .about-content .about-paraf .human
+{
+    display: none;
+}
+
+
+@media only screen and (min-width: 1920px){
+   .container-content .about-content .about-paraf
+   {
+    display: flex;
+    justify-content: center;
+   }
+   
+    .container-content .about-content .about-paraf .human
+   {
+    position: relative;
+    display: block;
+    margin-top: 37px;
+    margin-left: 54px;
+    padding-left: 34px;
+    width: 414px;
+    height: 713px;
+    background: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+   }
+
+}

@@ -258,7 +258,7 @@ body {
     position: relative;
     margin-top: -772px;
     margin-left: 22%;
-    width: 750px;
+    width: 59%;
     height: 734px;
     background: linear-gradient(90deg, rgba(232, 74, 74, 0) 0%, rgba(232, 74, 74, 0.17) 51.94%, rgba(232, 74, 74, 0) 100%);
     border: 1px solid rgba(255, 255, 255, 0.13);
@@ -290,6 +290,27 @@ body {
 .right {
   right: 0;
   border-right: 2px solid #E84A4A;
+}
+
+@media only screen and (min-width: 1440px)
+{
+  .container-content
+  {
+    width: 62%;
+    height: 734px;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (min-width: 1920px){
+  .container-content
+  {
+    z-index: 12;
+    margin-top: -808px;
+    width: 72%;
+    height: 896px;
+    margin-left: 15%;
+  }
 }
 
 
