@@ -19,10 +19,10 @@ const Sidebar = ({ setConnection, setOpenForHire }) => {
                         height={148}
                         priority={true}
                         />
-                        <div class="top left"></div>
-                        <div class="top right"></div>
-                        <div class="bottom right"></div>
-                        <div class="bottom left"></div>
+                        <div className="top left"></div>
+                        <div className="top right"></div>
+                        <div className="bottom right"></div>
+                        <div className="bottom left"></div>
                     </div>
                     <div className="data">
                         <div className="name">
