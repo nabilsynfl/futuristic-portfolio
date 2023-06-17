@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Iceberg&family=Iceland&display=swap');
+
+
+.container-content .tech h1
+{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 39px;
+}
+
+.container-content .tech .container
+{
+    border-top: 1px solid #E84A4A;
+    width: 90%;
+    margin: 32px auto;
+}
+
+.container-content .tech .container .filter
+{
+    background: #371114;
+    font-family: 'Iceberg';
+    padding: 10px 7px;
+    box-sizing: border-box;
+    font-family: 'Iceberg';
+    width: 100%;
+    display: flex;
+}
+
+.container-content .tech .container label
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: #7A7A7A;
+}
+
+.container-content .tech .container h4
+{
+    font-family: 'Iceberg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: #E84A4A;
+    text-shadow: 0px 0px 3px #FF4646;
+}
